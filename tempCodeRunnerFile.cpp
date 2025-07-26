@@ -1,2 +1,5 @@
-    // vec.clear(); // this function is used to empty the vector
-    //  cout<<vec.size();
+ // while(!s.empty()){
+    //     cout << s.top() << " "; // this will print the top element of the stack
+    //     s.pop(); 
+    //     // this will remove the top element from the stack
+    // }

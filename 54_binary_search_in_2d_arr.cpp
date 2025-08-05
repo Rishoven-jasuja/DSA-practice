@@ -38,8 +38,8 @@ int n=matrix[0].size();
 
 int strow=0;
 int endrow=m-1;
-int target=34;
-vector<int> ans;
+int target=50;
+vector<int> ans={-1,-1};
 while(strow<=endrow){
     int midrow=strow+(endrow-strow)/2;
     

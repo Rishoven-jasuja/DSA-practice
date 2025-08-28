@@ -3,7 +3,7 @@
 #include <unordered_set>
 #include <cctype>
 using namespace std;
-
+//pangram: a sentence containing every letter of the alphabet at least once
 bool checkIfPangram(const string &s, string &missing) {
     unordered_set<char> alphas;
 

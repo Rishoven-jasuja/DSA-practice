@@ -1,4 +1,4 @@
-// C++ program to find the first common element in two arrays
+// C++ program to find the first common element in two array
 
 #include <iostream>
 #include <vector>

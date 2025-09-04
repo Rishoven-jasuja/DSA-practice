@@ -8,6 +8,28 @@ class teacher {
         
     public:
     //properties
+    teacher(){
+        // non parameterized constructor
+        cout<<"i am a constructor"<<endl;
+    }
+    // constructor is a special type of function which is used to initialize the object of the class
+    // it is automatically called when the object of the class is created
+    // its work is to allocate memory to the object of the class
+    // it has same name as the class name
+
+
+    teacher(string n, string d, string s, double sal){
+        // parameterized constructor
+        name=n;
+        dept=d;
+        subject=s;
+        salary=sal;
+    }
+
+    ~teacher(){
+        // destructor
+        cout<<"i am a destructor"<<endl;
+    }
     string name;
     string dept;
     string subject;
@@ -39,5 +61,7 @@ int main(){
     t1.set_salary(346467);
     cout<<t1.name<<endl;
     cout<<t1.get_salary()<<endl;
-
+    teacher t2("rj","ECE","DSA",45646);
+    cout<<t2.name<<endl;
+    
 }
